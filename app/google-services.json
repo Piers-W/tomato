@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "537648807644",
+    "firebase_url": "https://tomato-850cb-default-rtdb.firebaseio.com",
+    "project_id": "tomato-850cb",
+    "storage_bucket": "tomato-850cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537648807644:android:3b0ef3e14acb937317fe19",
+        "android_client_info": {
+          "package_name": "edu.northeastern.tomato"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsy9fFGHVB-7UhJpB5OW_5Y0XGsWOHC-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 头像 -->
+        <ImageView
+            android:id="@+id/imageView_avatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/default_avatar"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="24dp" />
+
+        <!-- 更换照片 -->
+        <TextView
+            android:id="@+id/textView_change_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更换照片"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp" />
+
+        <!-- 用户名 -->
+        <LinearLayout
+            android:id="@+id/linearLayout_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/textView_username_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="用户名"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView_username_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="current_username"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView_username_arrow"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_chevron_right" />
+
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e0e0e0" />
+
+        <!-- 邮箱 -->
+        <LinearLayout
+            android:id="@+id/linearLayout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/textView_email_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="邮箱"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView_email_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user@example.com"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView_email_arrow"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_chevron_right" />
+
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e0e0e0" />
+
+        <!-- 密码 -->
+        <LinearLayout
+            android:id="@+id/linearLayout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/textView_password_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="密码"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView_password_arrow"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_chevron_right" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
